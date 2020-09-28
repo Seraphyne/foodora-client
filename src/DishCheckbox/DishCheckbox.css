@@ -1,0 +1,13 @@
+.dish-tag-list{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* +++++++++++++++ MEDIUM & BIG MEDIAS +++++++++++++++++++ */
+@media all and (min-width: 600px) {
+.dish-tag-list{
+    display: inline-flex;
+}
+  
+}

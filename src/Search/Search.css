@@ -1,0 +1,144 @@
+.search-container{
+   padding: 10px;
+}
+
+.search-title{
+   text-align: center;
+   color: #000;
+}
+
+
+.last-search-title{
+    font-style: oblique;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.search-chkbox{
+    /* background-color: #ae2027; */
+    /* background:linear-gradient( rgba(168, 59, 59, 0.582), rgba(150, 14, 14, 0.856) ); */
+    background:linear-gradient( rgba(97, 167, 76, 0.582), rgba(179, 196, 27, 0.575) );
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.search-range-price-form{
+    padding: 8px;
+    border-radius: 10px;
+    /* background-color: #ae2027; */
+    /* background:linear-gradient( rgba(168, 59, 59, 0.582), rgba(150, 14, 14, 0.856) ); */
+    background:linear-gradient( rgba(97, 167, 76, 0.582), rgba(179, 196, 27, 0.575) );
+}
+
+.radio-button{
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-button-ch{
+    margin: 5px;
+}
+
+legend {
+    display:none;
+}
+
+fieldset{
+    border: #ae2027;
+}
+
+.search-results{
+    color:#FFFFFF;
+    margin: 10px;
+    /* background-color: #ae2027; */
+    /* background:linear-gradient( rgba(168, 59, 59, 0.582), rgba(221, 29, 29, 0.856) ); */
+    background:linear-gradient( rgba(97, 167, 76, 0.582), rgba(179, 196, 27, 0.575) );
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.indiv-dish{
+    border-radius: 10px;
+    margin: 12px;
+    padding: 5px;
+    color: #000;
+    /* background-color: #fff1f1; */
+    background:linear-gradient( rgba(252, 252, 252, 0.781), rgba(248, 248, 248, 0.849) );
+}
+
+.tag-names{
+    display: inline-flex;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.rest-name{
+    margin:5px;
+}
+
+.error-tags{
+    color: #000;
+    /* background-color: #f4a261; */
+    background-color:  #ae2027;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.dish-title{
+    font-weight: bold;
+}
+
+
+/* +++++++++++++++ MEDIUM MEDIAS +++++++++++++++++++ */
+@media all and (min-width: 600px) {
+
+.search-container{
+    width: 80vw;
+}
+
+.search-chkbox{
+    margin: 0 5vh 0 5vh; 
+} 
+
+.error-tags{
+    margin: 0 5vh 1vh 5vh; 
+} 
+
+.search-range-price-form{
+    margin: 0 5vh 0 5vh;
+}
+
+.search-results{
+    margin: 0 5vh 0 5vh; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.indiv-dish{
+    width: 300px;
+    margin: 2vw 0 0 0;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.radio-button{
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.radio-button-ch {
+    white-space: nowrap;
+}
+.search-container{
+    flex-wrap: wrap;
+ }
+
+}

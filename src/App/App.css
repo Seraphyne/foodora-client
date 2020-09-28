@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* +++++++++++++++ SMALL MEDIAS +++++++++++++++++++ */
+.div-container{
+  display: flex;
+  justify-content: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../Images/b42iYx.png);
+}
+
+.div-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 5vw 20px 5vw;
+  /* background-color: #F8FDE1; */
+  background:linear-gradient( rgba(255, 255, 255, 0.884), rgba(248, 248, 248, 0.849) );
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo-login{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  margin: 0px;
+}
+
+#login{
+  color: #000;
+  text-decoration: none;
+}
+
+.rest-title{
+  /* background-color: #ae2027; */
+  /* background:linear-gradient( rgba(168, 59, 59, 0.582), rgba(150, 14, 14, 0.856) ); */
+  background:linear-gradient( rgba(97, 167, 76, 0.582), rgba(179, 196, 27, 0.575) );
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+.copyright{
+  font-size: 12px;
+  margin: 10px;
+  color: #000;
+}
+
+.error{
+  color: #000;
+  /* background-color: #f4a261; */
+  background-color:  #ae2027;
+  color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 5px;
+}
+
+.footer-router{ 
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 5px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.faq{
+  margin: 10px;
+  padding: 10px;
+  color: #000;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.faq h2{
+  text-align: center;
+}
+
+.about{
+  margin: 10px;
+  padding: 10px;
+  color: #000;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.about h2{
+  text-align: center;
+}
+
+.welcome{
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button{
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 10px;
+  color: #FFFFFF;
+  background-color: #ae2027;
+}
+
+#register , .color{
+  color: #000;
+}
+
+.username, .password, .restname, .phone{
+  margin: 10px;
+  padding: 10px;
+  color: #000;
+}
+
+#update{
+  background:linear-gradient( rgba(97, 167, 76, 0.582), rgba(179, 196, 27, 0.575) );
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  margin: 0 30px 0 30px;
+}
+
+label{
+  margin-right: 10px;
+}
+
+input{
+  margin-left: 10px;
+  font-size: 14pt;
+  border-radius: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.mockCred{
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 0 30px 0 30px;
+  border: 2px solid black;
+  font-weight: bold;
+  padding: 10px;
+  /* background-color: #ae2027; */
+  /* background:linear-gradient( rgba(168, 59, 59, 0.582), rgba(150, 14, 14, 0.856) ); */
+  background:linear-gradient( rgba(97, 167, 76, 0.582), rgba(179, 196, 27, 0.575) );
+}
+.register-form{
+  /* background:linear-gradient( rgba(168, 59, 59, 0.582), rgba(150, 14, 14, 0.856) ); */
+  background:linear-gradient( rgba(97, 167, 76, 0.582), rgba(179, 196, 27, 0.575) );
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  margin: 0 30px 0 30px;
+}
+
+.login-form{
+  /* background:linear-gradient( rgba(168, 59, 59, 0.582), rgba(150, 14, 14, 0.856) ); */
+  background:linear-gradient( rgba(97, 167, 76, 0.582), rgba(179, 196, 27, 0.575) );
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  margin: 30px;
+}
+
+
+/* chrome, opera, safari placeholder align */
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+/* Firefox placeholder align */
+:-moz-placeholder {
+  text-align: center;
+}
+
+/* +++++++++++++++ MEDIUM & BIG MEDIAS +++++++++++++++++++ */
+@media all and (min-width: 600px) {
+
+  .div-main-container{
+    margin: 20px 15vw 20px 15vw;
+  }
+
+  .welcome{
+    font-size: 25px;
+  }
+
+  .button{
+    border-radius: 12px;
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  .login-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .mockCred{
+    margin: 0 100px 0 100px;
+  }
+
+  .login-form{
+    margin: 0 30px 30px 30px;
+  }
+
+  .rest-title{
+    margin: 0 10vw 0 10vw;
+  }
+}
+
+@media all and (min-width: 800px){
+  .div-container{
+    min-height: 100vh;
+  }
+
+  .rest-title{
+    margin: 0 10vw 0 10vw;
+  }
+
+  .login-form{
+    margin: 0 70px 30px 70px;
+  }
+}
+
+@media all and (min-width: 1500px){
+  .rest-title{
+    margin: 0 300px 0 300px;
+  }
+}

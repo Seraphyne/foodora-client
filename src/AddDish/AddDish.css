@@ -1,0 +1,65 @@
+.dish-name, .dish-price{
+    margin: 10px;
+    padding: 10px;
+    color: #000;
+}
+
+.addDish-tag-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    background:rgba(1,1,1,0.7);
+    color: #fff;
+}
+
+.dishes-results{
+    /* border: 1px solid #000; */
+    margin: 10px;
+    /* background-color: #ae2027; */
+    /* background:linear-gradient( rgba(168, 59, 59, 0.582), rgba(150, 14, 14, 0.856) ); */
+    background:linear-gradient( rgba(97, 167, 76, 0.582), rgba(179, 196, 27, 0.575) );
+    /* padding: 20px; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.results-rest{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #fff1f1;
+    color: #000;
+}
+
+.dish_main{
+    color: #000;
+    font-weight: bold;
+}
+
+.rest-name{
+    margin: 10px;
+    padding: 10px;
+}
+
+/* +++++++++++++++ MEDIUM & BIG MEDIAS +++++++++++++++++++ */
+@media all and (min-width: 600px) {
+.addDish-tag-list{
+    display: inline-flex;
+}
+
+.dishes-results{
+    margin: 0 5vw 0 5vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.results-rest{
+    width: 300px;
+    margin-bottom: 20px;
+}
+  
+}

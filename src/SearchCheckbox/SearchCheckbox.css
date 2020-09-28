@@ -1,0 +1,14 @@
+.search-tag-list{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* +++++++++++++++ MEDIUM & BIG MEDIAS +++++++++++++++++++ */
+@media all and (min-width: 600px) {
+.search-tag-list{
+    display: inline-flex;
+}
+  
+}
+
